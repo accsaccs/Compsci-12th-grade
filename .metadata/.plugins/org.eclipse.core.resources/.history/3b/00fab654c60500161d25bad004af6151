@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class ACSL4_RegExp15_c16as {
+	
+	public static void dot (String[] firstLine, String input)
+	{
+		String letterPre = "";
+		String letterPost = "";
+		
+		for (int i = 0; i < firstLine.length; i++) 
+		{
+			
+		}
+	}//close dot method 
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		for (int i = 0; i < 15; i++) {
+			//take in the input
+			if(i == 0 || i == 6){
+				String[] firstLine = scan.nextLine().split(", ");
+			}
+			else{
+				String input = scan.nextLine();
+			}
+			
+
+		}//big for
+	}//main
+}//class

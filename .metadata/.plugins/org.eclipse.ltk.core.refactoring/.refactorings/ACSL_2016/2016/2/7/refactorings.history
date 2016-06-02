@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ACSL2_string15_AS&apos; to &apos;ACSL2_string15_c16as&apos;&#x0A;- Original project: &apos;ACSL_2016&apos;&#x0A;- Original element: &apos;ACSL2_string15_AS&apos;&#x0A;- Renamed element: &apos;ACSL2_string15_c16as&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ACSL2_string15_AS&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ACSL2_string15_AS.java[ACSL2_string15_AS" matchStrategy="1" name="ACSL2_string15_c16as" qualified="false" references="true" similarDeclarations="false" stamp="1455319951101" textual="false" version="1.0"/>
+</session>

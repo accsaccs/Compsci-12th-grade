@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class ACSL4_RegExp15_c16as {
+
+	public static void dot (String[] firstLine, String input)
+	{
+		ArrayList<String> matchesArray = new ArrayList<String>();
+		char[] inputChars = input.toCharArray();
+		char letterPre = ' ';
+		char letterPost = ' ';
+		for (int i = 0; i < inputChars.length; i++) 
+		{
+			if(inputChars[i] == '.')
+			{
+				letterPre = inputChars[i-1];
+				letterPost = inputChars[i+1];
+			}
+		}
+
+		for (int i = 0; i < firstLine.length; i++) 
+		{
+			char[] givenStr = firstLine[i].toCharArray();
+			if(givenStr.length >= input.length())
+			{
+				for (int j = 0; j < givenStr.length; j++) 
+				{
+					if(givenStr[j] == letterPre && givenStr[j+2] == letterPost)
+					{
+						
+					}
+				}
+			}
+		}
+	}//close dot method 
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		for (int i = 0; i < 15; i++) {
+			//take in the input
+			if(i == 0 || i == 6){
+				String[] firstLine = scan.nextLine().split(", ");
+			}
+			else{
+				String input = scan.nextLine();
+			}
+
+
+		}//big for
+	}//main
+}//class

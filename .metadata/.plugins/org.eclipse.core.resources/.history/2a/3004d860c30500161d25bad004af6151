@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class ACSL4_RegExp15_c16as {
+	
+	
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		for (int i = 0; i < 15; i++) {
+			//take in the input
+			if(i == 0 || i == 6){
+				String[] firstLine = scan.nextLine().split(", ");
+				System.out.println(firstLine);
+			}
+			else{
+				String input = scan.nextLine();
+			}
+			
+			System.out.println();
+		}
+	}//main
+}//class

@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class ACSL4_RegExp15_c16as {
+	
+	public static void dot (String[] firstLine, String input)
+	{
+		ArrayList<String> matchesArray = new ArrayList<String>();
+		char[] inputChars = input.toCharArray();
+		
+		for (int i = 0; i < firstLine.length; i++) 
+		{
+			if(firstLine[i].length() == input.length())
+			{
+				matchesArray.add(firstLine[i]);
+			}
+			
+			if(input[0] == "a" && input[2] == "c")
+			{
+				good
+			}
+		}
+	}//close dot method 
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		for (int i = 0; i < 15; i++) {
+			//take in the input
+			if(i == 0 || i == 6){
+				String[] firstLine = scan.nextLine().split(", ");
+			}
+			else{
+				String input = scan.nextLine();
+			}
+			
+
+		}//big for
+	}//main
+}//class
